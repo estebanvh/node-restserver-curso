@@ -38,12 +38,12 @@ app.post('/usuario', (req, res) => {
 
 });
 
-app.put('/usuario', (req, resp) => {
+app.put('/usuario', (req, res) => {
 
     res.json('put usuario');
 });
 
-app.delete('/usuario', (req, resp) => {
+app.delete('/usuario', (req, res) => {
 
     res.json('delete usuario');
 })
