@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// rutas
-app.use(require('./routes/usuario'));
+// rutas globales
+app.use(require('./routes/index'));
 
 app.listen(process.env.PORT, () => {
 
