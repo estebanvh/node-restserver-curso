@@ -25,7 +25,7 @@ process.env.SEED = process.env.SEED || 'semilla-para-desarrollo';
 // ===========
 // GOOGLE CLIENT_ID
 // ===========
-process.env.CLIENT_ID = process.env.CLIENT_ID || '325283884789-a47lusfdapv018pc29oskb05hfv69okh.apps.googleusercontent.com';
+process.env.CLIENT_ID = process.env.CLIENT_ID || '325283884789-1tnjebfoaop7frvkaneru67tjeu2ovk5.apps.googleusercontent.com';
 
 
 
